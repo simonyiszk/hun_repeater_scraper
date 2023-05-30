@@ -15,13 +15,14 @@ import simplekml
 import random
 from typing import List
 
-URL_TO_FETCH  = "http://ha2to.orbel.hu/content/repeaters/hu/index.html"
+URL_TO_FETCH = "http://ha2to.orbel.hu/content/repeaters/hu/index.html"
 
 
 """
 Table fetching
 using requests + html.parser.HTMLParser to extract all tables from the webpage
 """
+
 
 @dataclass
 class Table:
@@ -35,13 +36,16 @@ class Table:
     headings: List[str]
     rows: List[List[str]]
 
+
 class TablesExtractor(HTMLParser):
     current_data = ""
     tables = [Table('', [], [[]])]
     current_row = []
+
     def handle_starttag(self, tag, attrs):
         # self.current_data = ""
         pass
+
     def handle_endtag(self, tag):
         if tag == "br":
             return
@@ -60,8 +64,10 @@ class TablesExtractor(HTMLParser):
         if tag == "table":
             self.tables.append(Table('', [], [[]]))
         self.current_data = ""
+
     def handle_data(self, data):
         self.current_data += data
+
 
 def extract_tables(url):
     data = requests.get(url).text
@@ -100,17 +106,15 @@ for cs, qthn, down, up, _, _, shift, _, ctcss, echo, qth, _, active in rows:
 
     band2m = int(shift) == -600
 
-
     lat, long = mh.to_location(qth, center=True)
     # move it a bit so the markers won't overlap
     # but make sure it stays in the same grid square
-    lat += random.uniform(-1/48, 1/48)
-    long += random.uniform(-2/48, 2/48)
+    lat += random.uniform(-1 / 48, 1 / 48)
+    long += random.uniform(-2 / 48, 2 / 48)
     assert mh.to_maiden(lat, long, 3).upper() == qth, f"mismatch"
 
     ctcss = ctcss.split("/")[0]
     points.append(Repeater(cs, lat, long, band2m, echo, down, ctcss, qthn))
-
 
 
 """
