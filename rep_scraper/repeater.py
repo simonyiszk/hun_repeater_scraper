@@ -17,14 +17,15 @@ class CTCSS:
 
 	@classmethod
 	def parse_setting(_cls, setting: str) -> 'CTCSS':
-		ctone, rtone = setting.replace('--', '0').split('/')
-		ctone, rtone = float(ctone), float(rtone)
-		if not rtone:
-			return CTCSS(CTCSS_MODE.NONE, 88.5, 88.5)
-		elif not ctone:
-			return CTCSS(CTCSS_MODE.TONE, rtone, 88.5)
+		dl, ul = setting.replace('--', '0').split('/')
+		dl, ul = float(dl), float(ul)
+		if dl and ul:
+			return CTCSS(CTCSS_MODE.TSQL, dl, ul)
+		elif ul:
+			return CTCSS(CTCSS_MODE.TONE, 88.5, ul)
 		else:
-			return CTCSS(CTCSS_MODE.TSQL, rtone, ctone)
+			return CTCSS(CTCSS_MODE.NONE, 88.5, 88.5)
+			
 	def __str__(self):
 		return f"{self.dl_tone or '--'}/{self.ul_tone or '--'}"
 
