@@ -7,4 +7,12 @@ This python script scrapes the page [Magyarországi VHF és UHF rádióamatőr �
 
 For the maps, see [the generated map on google maps](https://www.google.com/maps/d/edit?mid=1pecdCCsx2C0F0qW0n-bFy2ZnTRufJyo&usp=sharing)
 
+To run:
+```
+python3 -m virtualenv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 rep_scraper
+```
+
 Made by HA7DN, 2023
