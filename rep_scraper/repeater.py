@@ -5,15 +5,15 @@ import random
 
 
 class CTCSS_MODE(Enum):
-	NONE = ""		# no rx, no tx
-	TONE = "Tone"	# only transmit
-	TSQL = "TSQL"	# rx and tx
+	NONE = ""	   # no rx, no tx
+	TONE = "Tone"   # only transmit
+	TSQL = "TSQL"   # rx and tx
 	
 @dataclass
 class CTCSS:
 	mode: CTCSS_MODE	# CTCSS mode for CHIRP
-	dl_tone: float		# downlink CTCSS tone
-	ul_tone: float		# uplink CTCSS tone
+	dl_tone: float	  # downlink CTCSS tone
+	ul_tone: float	  # uplink CTCSS tone
 
 	@classmethod
 	def parse_setting(_cls, setting: str) -> 'CTCSS':
@@ -31,7 +31,7 @@ class CTCSS:
 
 @dataclass
 class QTH:
-	name: str		# name of QTH
+	name: str	   # name of QTH
 	locator: str	# maidenhead locator code
 	
 	def get_geo_pos(self, center:bool = True, randomize:bool = True) -> (float, float):
@@ -64,6 +64,8 @@ class Repeater:
 	
 	@classmethod
 	def parse(_cls, callsign, qth_name, downlink, uplink, shift, ctcss, echolink, qth_locator) -> 'Repeater':
+		if shift == "":
+			shift = float(uplink) - float(downlink)
 		assert(FREQ(float(downlink), float(uplink)).offset == float(shift)), f"Offset is not valid for repeater {callsign}:\n\t{uplink=}\n\t{downlink=}\n\t{shift=}"
 		return Repeater(callsign, CTCSS.parse_setting(ctcss), QTH(qth_name, qth_locator), FREQ(float(downlink), float(uplink)), echolink)
 	
