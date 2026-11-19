@@ -52,6 +52,8 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 			style.iconstyle.icon.href = SHAPES_URL + shape
 			style.iconstyle.color = color
 			styles[(color, shape)] = style
+			# shared styles must live at the Document level, not inside a Folder (Google My Maps ignores them otherwise)
+			kml.document.styles.append(style)
 		return styles[(color, shape)]
 
 	for point in repeaters:
@@ -75,6 +77,6 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 			pnt.name = f"{point.qth.name.strip()} {point.callsign}"
 			pnt.description = desc
 			pnt.coords = [point.qth.geo_pos]
-			pnt.style = style
+			pnt.styleurl = "#" + style.id
 
 	kml.save(filename)
