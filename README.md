@@ -23,6 +23,7 @@ Without arguments the help is printed. Choose the data source(s):
 | `--ha2to` | scrape the HA2TO website |
 | `--nmhh` | download the NMHH list (https://nmhh.hu/amator/relay_list.xml) |
 | `--xml PATH` | read a local XML file (same format as the NMHH list) |
+| `--ctcss` | add the CTCSS zones by county as a layer to `repeaters.kml` |
 
 `--nmhh` and `--xml` cannot be combined. `--ha2to` can be combined with either of them, in which case the two lists are merged by call sign:
 ```
@@ -30,7 +31,21 @@ python3 rep_scraper --ha2to
 python3 rep_scraper --nmhh
 python3 rep_scraper --ha2to --nmhh
 python3 rep_scraper --ha2to --xml relay_list.xml
+python3 rep_scraper --nmhh --ctcss
 ```
+
+### CTCSS zones
+
+With `--ctcss`, `repeaters.kml` gets an extra "CTCSS" folder (layer) with the counties colored by their CTCSS tone (semi-transparent polygons):
+
+| Tone | Color | Counties |
+|------|-------|----------|
+| 74.4 Hz | green | Somogy, Baranya, Tolna |
+| 107.2 Hz | blue | Győr-Moson-Sopron, Vas, Zala, Veszprém, Komárom-Esztergom, Fejér |
+| 114.8 Hz | pink | Pest (including Budapest), Nógrád, Heves, Borsod-Abaúj-Zemplén, Jász-Nagykun-Szolnok |
+| 131.8 Hz | yellow | Szabolcs-Szatmár-Bereg, Hajdú-Bihar, Bács-Kiskun, Csongrád-Csanád, Békés |
+
+The county boundaries are in `data/hu_counties.geojson` (from [geoBoundaries](https://www.geoboundaries.org/), HUN ADM1, CC0). The zones are defined in `rep_scraper/ctcss_zones.py`.
 
 ### Merging
 
@@ -57,3 +72,5 @@ Notes:
 - The XML has no CTCSS or EchoLink data. CTCSS is left empty and `echolink.kml` is only generated when merged with HA2TO data.
 
 Made by HA7DN, 2023
+
+Contributors: HG3PE Pepó
