@@ -40,7 +40,9 @@ The file must be an Excel 2003 XML (SpreadsheetML) workbook like `relay_list.xml
 | 15, 16 | EOV coordinates (X = northing, Y = easting) |
 
 Notes:
-- EOV coordinates are converted to a 6-character Maidenhead locator with `pyproj`, so the map positions are approximate, as with web scraping.
+- EOV coordinates are converted to a 6-character Maidenhead locator with `pyproj`, so the map positions are approximate, as with web scraping. The order of the two coordinate columns varies between rows, so northing (< 400000) and easting (> 400000) are detected by value. Rows outside Hungary are skipped with a warning.
+- Rows with the same call sign are merged into one repeater. The map description lists every mode (FM, C4FM, DMR) with its downlink and uplink frequency. The CHIRP files use the first row's frequency.
+- Only 2m and 70cm rows are used; other bands (e.g. microwave links) are skipped.
 - Entries whose validity date has passed, and rows missing a call sign, frequency or coordinates, are skipped.
 - The XML has no CTCSS or EchoLink data. CTCSS is left empty and `echolink.kml` is not generated.
 

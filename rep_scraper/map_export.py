@@ -24,7 +24,12 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 	for point in repeaters:
 		pnt = kml.newpoint()
 		pnt.name = point.callsign
-		desc = f"{point.qth.name}\nDownlink: {point.freq.downlink} kHz\nCTCSS: {point.ctcss}"
+		desc = point.qth.name
+		if point.modes:
+			for mode, freq in point.modes:
+				desc += f"\n{mode}: {freq.downlink} kHz (uplink {freq.uplink} kHz)"
+		else:
+			desc += f"\nDownlink: {point.freq.downlink} kHz\nCTCSS: {point.ctcss}"
 		if point.echolink_code:
 			desc += f"\nEchoLink: {point.echolink_code}"
 		pnt.description = desc

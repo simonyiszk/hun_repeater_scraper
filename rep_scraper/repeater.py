@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import List, Tuple
 from enum import Enum
 import maidenhead
 import random
@@ -61,6 +62,7 @@ class Repeater:
 	freq: FREQ
 	
 	echolink_code: str
+	modes: List[Tuple[str, FREQ]] = field(default_factory=list)	# (mode name, frequencies), set by XML input
 	
 	@classmethod
 	def parse(_cls, callsign, qth_name, downlink, uplink, shift, ctcss, echolink, qth_locator) -> 'Repeater':
