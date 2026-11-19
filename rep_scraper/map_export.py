@@ -20,6 +20,8 @@ SHAPE_BY_MODE = {
 	"FM": "placemark_circle.png",
 }
 
+LAYERS = ("FM", "DMR", "C4FM")	# one KML folder (Google My Maps layer) per mode
+
 # KML colors are aabbggrr
 COLOR_2m = simplekml.Color.red
 COLOR_70cm = simplekml.Color.blue
@@ -42,6 +44,7 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 		kml.document.name = document_name
 
 	styles: Dict[Tuple[str, str], simplekml.Style] = {}
+	folders: Dict[str, simplekml.Folder] = {}
 
 	def get_style(color: str, shape: str) -> simplekml.Style:
 		if (color, shape) not in styles:
@@ -52,8 +55,6 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 		return styles[(color, shape)]
 
 	for point in repeaters:
-		pnt = kml.newpoint()
-		pnt.name = f"{point.qth.name.strip()} {point.callsign}"
 		desc = point.qth.name
 		if point.modes:
 			desc += "\nPrivate" if point.private else "\nCommunity"
@@ -63,8 +64,17 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 			desc += f"\nDownlink: {point.freq.downlink} kHz\nCTCSS: {point.ctcss}"
 		if point.echolink_code:
 			desc += f"\nEchoLink: {point.echolink_code}"
-		pnt.description = desc
-		pnt.coords = [point.qth.geo_pos]
-		pnt.style = get_style(COLOR_2m if point.band2m else COLOR_70cm, shape_for(point))
+		style = get_style(COLOR_2m if point.band2m else COLOR_70cm, shape_for(point))
+
+		# one layer per mode, a repeater with several modes appears in each of them
+		present = {m for m, _f in point.modes}
+		for layer in [name for name in LAYERS if name in present] or ["FM"]:
+			if layer not in folders:
+				folders[layer] = kml.newfolder(name=layer)
+			pnt = folders[layer].newpoint()
+			pnt.name = f"{point.qth.name.strip()} {point.callsign}"
+			pnt.description = desc
+			pnt.coords = [point.qth.geo_pos]
+			pnt.style = style
 
 	kml.save(filename)
