@@ -77,6 +77,9 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 			pnt.name = f"{point.qth.name.strip()} {point.callsign}"
 			pnt.description = desc
 			pnt.coords = [point.qth.geo_pos]
-			pnt.styleurl = "#" + style.id
+			pnt.style = style
+
+	for folder in folders.values():
+		folder.styles.clear()	# simplekml also attaches the styles to the folder
 
 	kml.save(filename)
