@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Created>2026-11-18T21:00:03</Created>
+<LastSaved>2026-11-18T21:00:03</LastSaved>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<WindowHeight>12525</WindowHeight>
+<WindowWidth>15195</WindowWidth>
+<WindowTopX>480</WindowTopX>
+<WindowTopY>90</WindowTopY>
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font x:CharSet="238"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s21">
+<Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="s22">
+<Interior ss:Color="#FF00FF" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="s23">
+<NumberFormat ss:Format="Short Date"/>
+</Style>
+<Style ss:ID="s24">
+<Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+<Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="s26">
+<Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+</Style>
+<Style ss:ID="s27">
+<Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="Short Date"/>
+</Style>
+<Style ss:ID="s28">
+<Interior ss:Color="#FF00FF" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="Short Date"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="Sheet1">
+<Table>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Column ss:Width="90"/>
+<Row>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Partnerkód / Partner code</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Engedélyes / Licensee</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Közösségi v. egyéni / Community or private</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Felelos kezelo / Chief operator</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Hívójel / Call sign</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Engedély száma / License Number</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Érvényes / Validity</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">QTH város / QTH city</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Adásmód / Mode</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Adófrekvencia / TxFreq</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Vevofrekvencia / Rx Freq</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Kisugárzott teljesítmény (dBW) / ERP  (dBW)</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Nyereség[dB] (dB) / Gain (dB)</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Sugárzási irány (o) / Direction of radiation</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Eovx / Geo. Coord. X</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Eovy / Geo. Coord. Y</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">tengerszint feletti magasság (m) / Height asl</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Antenna magasság (m) / Antenna height (m)</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Berendezés típus / Type of equipment</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Adóteljesítmény[dBW] / Tx Output power [dBW]</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">Antenna típusa / Type of antenna</Data></Cell>
+<Cell ss:StyleID="s24"><Data ss:Type="String">irányított / Direction</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708765</Data></Cell>
+<Cell><Data ss:Type="String">Magyar Rádióamatőr Szövetség</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Mátrai István</Data></Cell>
+<Cell><Data ss:Type="String">HG4RUA</Data></Cell>
+<Cell><Data ss:Type="String">26091-2/2021</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2026-12-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Polgárdi</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">438.7</Data></Cell>
+<Cell><Data ss:Type="Number">431.1</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">194219.6</Data></Cell>
+<Cell><Data ss:Type="Number">594429.7</Data></Cell>
+<Cell><Data ss:Type="Number">110</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">TKR-820</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">V4R</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">764925</Data></Cell>
+<Cell><Data ss:Type="String">Kasziba Róbert</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG8RVD</Data></Cell>
+<Cell><Data ss:Type="String">5521-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Tompa</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6875</Data></Cell>
+<Cell><Data ss:Type="Number">145.0875</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number">8.3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">687494</Data></Cell>
+<Cell><Data ss:Type="Number">95373.1</Data></Cell>
+<Cell><Data ss:Type="Number">134</Data></Cell>
+<Cell><Data ss:Type="Number">24</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X510N</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706039</Data></Cell>
+<Cell><Data ss:Type="String">Női Rádióamatőr Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Turjányi József</Data></Cell>
+<Cell><Data ss:Type="String">HG3RUA</Data></Cell>
+<Cell><Data ss:Type="String">11543-4/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ságvár</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">431.55</Data></Cell>
+<Cell><Data ss:Type="Number">439.15</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4.8</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">164686</Data></Cell>
+<Cell><Data ss:Type="Number">576742</Data></Cell>
+<Cell><Data ss:Type="Number">245</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">Ricofunk RTL-707</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Kollineár</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706039</Data></Cell>
+<Cell><Data ss:Type="String">Női Rádióamatőr Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Turjányi József</Data></Cell>
+<Cell><Data ss:Type="String">HG3RUA</Data></Cell>
+<Cell><Data ss:Type="String">11543-4/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ságvár</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">434.75</Data></Cell>
+<Cell><Data ss:Type="Number">433.15</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4.8</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">164686</Data></Cell>
+<Cell><Data ss:Type="Number">576742</Data></Cell>
+<Cell><Data ss:Type="Number">245</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">Ricofunk RTL-707</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Kollineár</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">710151</Data></Cell>
+<Cell><Data ss:Type="String">Fazekas Gábor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RVC</Data></Cell>
+<Cell><Data ss:Type="String">18186-2/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-08-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szekszárd</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7375</Data></Cell>
+<Cell><Data ss:Type="Number">145.1375</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">113203</Data></Cell>
+<Cell><Data ss:Type="Number">621290.9</Data></Cell>
+<Cell><Data ss:Type="Number">273</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">HG7WBR-féle X200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">710151</Data></Cell>
+<Cell><Data ss:Type="String">Fazekas Gábor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RVC</Data></Cell>
+<Cell><Data ss:Type="String">18186-2/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-08-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szekszárd</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7375</Data></Cell>
+<Cell><Data ss:Type="Number">145.1375</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">113203</Data></Cell>
+<Cell><Data ss:Type="Number">621290.9</Data></Cell>
+<Cell><Data ss:Type="Number">273</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">HG7WBR-féle X200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">707113</Data></Cell>
+<Cell><Data ss:Type="String">Szűcs László Kálmán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG7RUI</Data></Cell>
+<Cell><Data ss:Type="String">16784-2/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-08-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Őrbottyán</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">438.6125</Data></Cell>
+<Cell><Data ss:Type="Number">431.0125</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">668705</Data></Cell>
+<Cell><Data ss:Type="Number">260824</Data></Cell>
+<Cell><Data ss:Type="Number">214</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X510</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">707113</Data></Cell>
+<Cell><Data ss:Type="String">Szűcs László Kálmán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG7RUI</Data></Cell>
+<Cell><Data ss:Type="String">16784-2/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-08-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Őrbottyán</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.6125</Data></Cell>
+<Cell><Data ss:Type="Number">431.0125</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">668705</Data></Cell>
+<Cell><Data ss:Type="Number">260824</Data></Cell>
+<Cell><Data ss:Type="Number">214</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X510</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703676</Data></Cell>
+<Cell><Data ss:Type="String">Soproni Rádióamatőr Sportegyesület</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Fodor Sándor</Data></Cell>
+<Cell><Data ss:Type="String">HG1RUB</Data></Cell>
+<Cell><Data ss:Type="String">30303-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-11-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Sopron</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.375</Data></Cell>
+<Cell><Data ss:Type="Number">431.775</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">463899</Data></Cell>
+<Cell><Data ss:Type="Number">261018</Data></Cell>
+<Cell><Data ss:Type="Number">398</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703676</Data></Cell>
+<Cell><Data ss:Type="String">Soproni Rádióamatőr Sportegyesület</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Fodor Sándor</Data></Cell>
+<Cell><Data ss:Type="String">HG1RVB</Data></Cell>
+<Cell><Data ss:Type="String">30302-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-11-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Sopron</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6875</Data></Cell>
+<Cell><Data ss:Type="Number">145.0875</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">463899</Data></Cell>
+<Cell><Data ss:Type="Number">261018</Data></Cell>
+<Cell><Data ss:Type="Number">395</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X300</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703368</Data></Cell>
+<Cell><Data ss:Type="String">Városi Rádióklub Sportegyesület Nyíeregyháza</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Dévényi József</Data></Cell>
+<Cell><Data ss:Type="String">HG5RUA</Data></Cell>
+<Cell><Data ss:Type="String">26508-4/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-11-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">12K5F2DJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.825</Data></Cell>
+<Cell><Data ss:Type="Number">431.235</Data></Cell>
+<Cell><Data ss:Type="Number">11.6</Data></Cell>
+<Cell><Data ss:Type="Number">5.2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">245836</Data></Cell>
+<Cell><Data ss:Type="Number">646257.9</Data></Cell>
+<Cell><Data ss:Type="Number">502</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR-2X</Data></Cell>
+<Cell><Data ss:Type="Number">11.6</Data></Cell>
+<Cell><Data ss:Type="String">Körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703368</Data></Cell>
+<Cell><Data ss:Type="String">Városi Rádióklub Sportegyesület Nyíeregyháza</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Dévényi József</Data></Cell>
+<Cell><Data ss:Type="String">HG5RUA</Data></Cell>
+<Cell><Data ss:Type="String">26508-4/2022</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-11-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">C4FM</Data></Cell>
+<Cell><Data ss:Type="Number">438.825</Data></Cell>
+<Cell><Data ss:Type="Number">431.225</Data></Cell>
+<Cell><Data ss:Type="Number">11.6</Data></Cell>
+<Cell><Data ss:Type="Number">5.2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">245836</Data></Cell>
+<Cell><Data ss:Type="Number">646257.9</Data></Cell>
+<Cell><Data ss:Type="Number">502</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR-2X</Data></Cell>
+<Cell><Data ss:Type="Number">11.6</Data></Cell>
+<Cell><Data ss:Type="String">Körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">711228</Data></Cell>
+<Cell><Data ss:Type="String">Budapest Fővárosi Rádióamatőr Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Jónap Gergő László</Data></Cell>
+<Cell><Data ss:Type="String">HG5RTV</Data></Cell>
+<Cell><Data ss:Type="String">24825-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2027-12-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">12K5F3FWN</Data></Cell>
+<Cell><Data ss:Type="Number">432.525</Data></Cell>
+<Cell><Data ss:Type="Number">432.525</Data></Cell>
+<Cell><Data ss:Type="Number">11</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">645486</Data></Cell>
+<Cell><Data ss:Type="Number">238875</Data></Cell>
+<Cell><Data ss:Type="Number">420</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM 300</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="String">Diamond x50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RUD</Data></Cell>
+<Cell><Data ss:Type="String">2242-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">16K0GEJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.7625</Data></Cell>
+<Cell><Data ss:Type="Number">431.1625</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">321160.5</Data></Cell>
+<Cell><Data ss:Type="Number">742613.5</Data></Cell>
+<Cell><Data ss:Type="Number">247</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-200N</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RUD</Data></Cell>
+<Cell><Data ss:Type="String">2242-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">16K0G3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.7625</Data></Cell>
+<Cell><Data ss:Type="Number">431.1625</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">321160.5</Data></Cell>
+<Cell><Data ss:Type="Number">742613.5</Data></Cell>
+<Cell><Data ss:Type="Number">247</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-200N</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RUH</Data></Cell>
+<Cell><Data ss:Type="String">2245-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW</Data></Cell>
+<Cell><Data ss:Type="Number">438.45</Data></Cell>
+<Cell><Data ss:Type="Number">430.85</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">321160</Data></Cell>
+<Cell><Data ss:Type="Number">742612.9</Data></Cell>
+<Cell><Data ss:Type="Number">247</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM 340</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RUH</Data></Cell>
+<Cell><Data ss:Type="String">2245-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW</Data></Cell>
+<Cell><Data ss:Type="Number">438.45</Data></Cell>
+<Cell><Data ss:Type="Number">430.85</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">321160</Data></Cell>
+<Cell><Data ss:Type="Number">742612.9</Data></Cell>
+<Cell><Data ss:Type="Number">247</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM 340</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RVD</Data></Cell>
+<Cell><Data ss:Type="String">2241-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">16K0G3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7625</Data></Cell>
+<Cell><Data ss:Type="Number">145.1625</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">321160.5</Data></Cell>
+<Cell><Data ss:Type="Number">742613.5</Data></Cell>
+<Cell><Data ss:Type="Number">246</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">709382</Data></Cell>
+<Cell><Data ss:Type="String">Döbör Tamás</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG9RVD</Data></Cell>
+<Cell><Data ss:Type="String">2241-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-02-29T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Ózd</Data></Cell>
+<Cell><Data ss:Type="String">16K0G3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7625</Data></Cell>
+<Cell><Data ss:Type="Number">145.1625</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">321160.5</Data></Cell>
+<Cell><Data ss:Type="Number">742613.5</Data></Cell>
+<Cell><Data ss:Type="Number">246</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708862</Data></Cell>
+<Cell><Data ss:Type="String">Recomix Savaria Rádióamatőr Sc</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Lippai Szabolcs József</Data></Cell>
+<Cell><Data ss:Type="String">HG1RUC</Data></Cell>
+<Cell><Data ss:Type="String">8751-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-04-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szombathely</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.125</Data></Cell>
+<Cell><Data ss:Type="Number">431.525</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">463654.7</Data></Cell>
+<Cell><Data ss:Type="Number">213372.6</Data></Cell>
+<Cell><Data ss:Type="Number">260</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Icom ICF-210</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">BRG körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708862</Data></Cell>
+<Cell><Data ss:Type="String">Recomix Savaria Rádióamatőr Sc</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Lippai Szabolcs József</Data></Cell>
+<Cell><Data ss:Type="String">HG1RUC</Data></Cell>
+<Cell><Data ss:Type="String">8751-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-04-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szombathely</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.125</Data></Cell>
+<Cell><Data ss:Type="Number">431.525</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">463654.7</Data></Cell>
+<Cell><Data ss:Type="Number">213372.6</Data></Cell>
+<Cell><Data ss:Type="Number">260</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">Icom ICF-210</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">BRG körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">765062</Data></Cell>
+<Cell><Data ss:Type="String">Pál András</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HA2GRB</Data></Cell>
+<Cell><Data ss:Type="String">14872-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">2M00F1D</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">2405</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">643705</Data></Cell>
+<Cell><Data ss:Type="Number">239545</Data></Cell>
+<Cell><Data ss:Type="Number">480</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Murgas TRX</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="String">Dipól</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">765062</Data></Cell>
+<Cell><Data ss:Type="String">Pál András</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HA2GRB</Data></Cell>
+<Cell><Data ss:Type="String">14872-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">20K0F1DAN</Data></Cell>
+<Cell><Data ss:Type="Number">436.785</Data></Cell>
+<Cell><Data ss:Type="Number">436.785</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">643705</Data></Cell>
+<Cell><Data ss:Type="Number">239545</Data></Cell>
+<Cell><Data ss:Type="Number">480</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Murgas TRX</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="String">Dipól</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">765062</Data></Cell>
+<Cell><Data ss:Type="String">Pál András</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HA2GRB</Data></Cell>
+<Cell><Data ss:Type="String">14872-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">20K0F1DAN</Data></Cell>
+<Cell><Data ss:Type="Number">145.935</Data></Cell>
+<Cell><Data ss:Type="Number">145.935</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">2.1</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">643705</Data></Cell>
+<Cell><Data ss:Type="Number">239545</Data></Cell>
+<Cell><Data ss:Type="Number">480</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Murgas TRX</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="String">Dipól</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700884</Data></Cell>
+<Cell><Data ss:Type="String">Gyulai Rádió Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Noveczki Zsolt</Data></Cell>
+<Cell><Data ss:Type="String">HG8RVE</Data></Cell>
+<Cell><Data ss:Type="String">23365-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Gyula</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7875</Data></Cell>
+<Cell><Data ss:Type="Number">145.1875</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">819233</Data></Cell>
+<Cell><Data ss:Type="Number">147608</Data></Cell>
+<Cell><Data ss:Type="Number">91</Data></Cell>
+<Cell><Data ss:Type="Number">37</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR1-XE</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Collinear 2x5/8</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706107</Data></Cell>
+<Cell><Data ss:Type="String">Herczeg Zoltán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RUF</Data></Cell>
+<Cell><Data ss:Type="String">14781-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-07-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Gyugypuszta</Data></Cell>
+<Cell><Data ss:Type="String">8K50G3ENJ</Data></Cell>
+<Cell><Data ss:Type="Number">439.275</Data></Cell>
+<Cell><Data ss:Type="Number">431.675</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">310</Data></Cell>
+<Cell><Data ss:Type="Number">564712</Data></Cell>
+<Cell><Data ss:Type="Number">163223</Data></Cell>
+<Cell><Data ss:Type="Number">286</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Hytera RD625</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">V4R</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706107</Data></Cell>
+<Cell><Data ss:Type="String">Herczeg Zoltán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RUF</Data></Cell>
+<Cell><Data ss:Type="String">14781-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-07-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Gyugypuszta</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW</Data></Cell>
+<Cell><Data ss:Type="Number">439.275</Data></Cell>
+<Cell><Data ss:Type="Number">431.675</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">310</Data></Cell>
+<Cell><Data ss:Type="Number">564712</Data></Cell>
+<Cell><Data ss:Type="Number">163223</Data></Cell>
+<Cell><Data ss:Type="Number">286</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Hytera RD625</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">V4R</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706107</Data></Cell>
+<Cell><Data ss:Type="String">Herczeg Zoltán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RVF</Data></Cell>
+<Cell><Data ss:Type="String">14770-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-07-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Igal</Data></Cell>
+<Cell><Data ss:Type="String">8K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7</Data></Cell>
+<Cell><Data ss:Type="Number">145.1</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">220</Data></Cell>
+<Cell><Data ss:Type="Number">564499.6</Data></Cell>
+<Cell><Data ss:Type="Number">136880.6</Data></Cell>
+<Cell><Data ss:Type="Number">296</Data></Cell>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="String">GM300 GM340</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">V2R</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">706107</Data></Cell>
+<Cell><Data ss:Type="String">Herczeg Zoltán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG3RVF</Data></Cell>
+<Cell><Data ss:Type="String">14770-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-07-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Igal</Data></Cell>
+<Cell><Data ss:Type="String">8K50G3ENJ</Data></Cell>
+<Cell><Data ss:Type="Number">145.7</Data></Cell>
+<Cell><Data ss:Type="Number">145.1</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">220</Data></Cell>
+<Cell><Data ss:Type="Number">564499.6</Data></Cell>
+<Cell><Data ss:Type="Number">136880.6</Data></Cell>
+<Cell><Data ss:Type="Number">296</Data></Cell>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="String">GM300 GM340</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">V2R</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704322</Data></Cell>
+<Cell><Data ss:Type="String">Makói Rádióamatőr Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Rácz Mihály</Data></Cell>
+<Cell><Data ss:Type="String">HG8RUD</Data></Cell>
+<Cell><Data ss:Type="String">16478-3/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-07-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Makó</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">97869</Data></Cell>
+<Cell><Data ss:Type="Number">759790.9</Data></Cell>
+<Cell><Data ss:Type="Number">80</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR-1X</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">ANICO / AFG 50 UH</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">701804</Data></Cell>
+<Cell><Data ss:Type="String">Balogh Béla</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG6RUD</Data></Cell>
+<Cell><Data ss:Type="String">24083-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-11-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Hatvan</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXE</Data></Cell>
+<Cell><Data ss:Type="Number">438.225</Data></Cell>
+<Cell><Data ss:Type="Number">430.625</Data></Cell>
+<Cell><Data ss:Type="Number">18.4</Data></Cell>
+<Cell><Data ss:Type="Number">4.5</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">259929</Data></Cell>
+<Cell><Data ss:Type="Number">698741</Data></Cell>
+<Cell><Data ss:Type="Number">164</Data></Cell>
+<Cell><Data ss:Type="Number">24</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM 340</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="String">Lambda BC70-5G</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708941</Data></Cell>
+<Cell><Data ss:Type="String">Ózdi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Barnóczki Péter</Data></Cell>
+<Cell><Data ss:Type="String">HG2PBA</Data></Cell>
+<Cell><Data ss:Type="String">25753-9/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-12-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Bábolna</Data></Cell>
+<Cell><Data ss:Type="String">12K5F2DCN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">570331.7</Data></Cell>
+<Cell><Data ss:Type="Number">255436.5</Data></Cell>
+<Cell><Data ss:Type="Number">140</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">Motorola M110</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">BRG Collinear</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708941</Data></Cell>
+<Cell><Data ss:Type="String">Ózdi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Barnóczki Péter</Data></Cell>
+<Cell><Data ss:Type="String">HG2RUK</Data></Cell>
+<Cell><Data ss:Type="String">19092-3/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-12-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvázsony</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW</Data></Cell>
+<Cell><Data ss:Type="Number">438.3</Data></Cell>
+<Cell><Data ss:Type="Number">430.7</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">544337</Data></Cell>
+<Cell><Data ss:Type="Number">190153</Data></Cell>
+<Cell><Data ss:Type="Number">599</Data></Cell>
+<Cell><Data ss:Type="Number">24</Data></Cell>
+<Cell><Data ss:Type="String">Hytera RD625</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708754</Data></Cell>
+<Cell><Data ss:Type="String">Szöllősi József Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Mucs Béla</Data></Cell>
+<Cell><Data ss:Type="String">HG4RUC</Data></Cell>
+<Cell><Data ss:Type="String">25816-2/2023</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2028-12-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Székesfehérvár</Data></Cell>
+<Cell><Data ss:Type="String">25K0F2DCN</Data></Cell>
+<Cell><Data ss:Type="Number">438.75</Data></Cell>
+<Cell><Data ss:Type="Number">431.15</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">605722.4</Data></Cell>
+<Cell><Data ss:Type="Number">205439.6</Data></Cell>
+<Cell><Data ss:Type="Number">179</Data></Cell>
+<Cell><Data ss:Type="Number">180</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR-1</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X300</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG1RUI</Data></Cell>
+<Cell><Data ss:Type="String">29010-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Kőszeg</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.375</Data></Cell>
+<Cell><Data ss:Type="Number">430.775</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">455869</Data></Cell>
+<Cell><Data ss:Type="Number">231318</Data></Cell>
+<Cell><Data ss:Type="Number">660</Data></Cell>
+<Cell><Data ss:Type="Number">45</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RUB</Data></Cell>
+<Cell><Data ss:Type="String">29011-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Esztergom</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.425</Data></Cell>
+<Cell><Data ss:Type="Number">431.825</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">629313</Data></Cell>
+<Cell><Data ss:Type="Number">271441</Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RUI</Data></Cell>
+<Cell><Data ss:Type="String">29012-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Esztergom</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439</Data></Cell>
+<Cell><Data ss:Type="Number">431.4</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">629313</Data></Cell>
+<Cell><Data ss:Type="Number">271441</Data></Cell>
+<Cell><Data ss:Type="Number">370</Data></Cell>
+<Cell><Data ss:Type="Number">30</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RUJ</Data></Cell>
+<Cell><Data ss:Type="String">29014-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Tatabánya</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.2</Data></Cell>
+<Cell><Data ss:Type="Number">430.6</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">602810</Data></Cell>
+<Cell><Data ss:Type="Number">247942</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RVA</Data></Cell>
+<Cell><Data ss:Type="String">29013-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Bakonyszücs</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7125</Data></Cell>
+<Cell><Data ss:Type="Number">145.1125</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">3.7</Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">560066.7</Data></Cell>
+<Cell><Data ss:Type="Number">213462.6</Data></Cell>
+<Cell><Data ss:Type="Number">714</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RVC</Data></Cell>
+<Cell><Data ss:Type="String">29015-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Dorog</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6625</Data></Cell>
+<Cell><Data ss:Type="Number">145.0625</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">625984</Data></Cell>
+<Cell><Data ss:Type="Number">264574</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700039</Data></Cell>
+<Cell><Data ss:Type="String">Bredán Viktor</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RVD</Data></Cell>
+<Cell><Data ss:Type="String">29016-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Esztergom</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7875</Data></Cell>
+<Cell><Data ss:Type="Number">145.1875</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">629313</Data></Cell>
+<Cell><Data ss:Type="Number">271441.5</Data></Cell>
+<Cell><Data ss:Type="Number">370</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700066</Data></Cell>
+<Cell><Data ss:Type="String">Szemelveisz Szilárd</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2RVG</Data></Cell>
+<Cell><Data ss:Type="String">4243-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Tihany</Data></Cell>
+<Cell><Data ss:Type="String">12K5F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.75</Data></Cell>
+<Cell><Data ss:Type="Number">145.15</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">173623.3</Data></Cell>
+<Cell><Data ss:Type="Number">561543.4</Data></Cell>
+<Cell><Data ss:Type="Number">202</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu FTL 2011</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Triostar</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700066</Data></Cell>
+<Cell><Data ss:Type="String">Szemelveisz Szilárd</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG5RUG</Data></Cell>
+<Cell><Data ss:Type="String">4246-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Budapest</Data></Cell>
+<Cell><Data ss:Type="String">12K5F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.2</Data></Cell>
+<Cell><Data ss:Type="Number">431.6</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">643450</Data></Cell>
+<Cell><Data ss:Type="Number">241329</Data></Cell>
+<Cell><Data ss:Type="Number">495</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">GM950</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">Triostar</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708840</Data></Cell>
+<Cell><Data ss:Type="String">Ceglédi Rádió Sport Egyesület</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Thanhoffer Ferenc</Data></Cell>
+<Cell><Data ss:Type="String">HA7RUB</Data></Cell>
+<Cell><Data ss:Type="String">6205-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Cegléd</Data></Cell>
+<Cell><Data ss:Type="String"> 16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.8</Data></Cell>
+<Cell><Data ss:Type="Number">431.2</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="Number">4.3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">705807</Data></Cell>
+<Cell><Data ss:Type="Number">202862</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">39</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR2XE</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Trióstár</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG0RUB</Data></Cell>
+<Cell><Data ss:Type="String">3865-8/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Sátoraljaújhely</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.7375</Data></Cell>
+<Cell><Data ss:Type="Number">4381.1375</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">125</Data></Cell>
+<Cell><Data ss:Type="Number">841428</Data></Cell>
+<Cell><Data ss:Type="Number">343018</Data></Cell>
+<Cell><Data ss:Type="Number">503</Data></Cell>
+<Cell><Data ss:Type="Number">25</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">BRG 1S00-075 Yagi</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG6HNA</Data></Cell>
+<Cell><Data ss:Type="String">3865-13/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Füzzesabony</Data></Cell>
+<Cell><Data ss:Type="String">5M00D7DXW</Data></Cell>
+<Cell><Data ss:Type="Number">5770</Data></Cell>
+<Cell><Data ss:Type="Number">5770</Data></Cell>
+<Cell><Data ss:Type="Number">11.4</Data></Cell>
+<Cell><Data ss:Type="Number">28</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">753201</Data></Cell>
+<Cell><Data ss:Type="Number">267635</Data></Cell>
+<Cell><Data ss:Type="Number">115</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">TP-Link AR9300 </Data></Cell>
+<Cell><Data ss:Type="Number">-3</Data></Cell>
+<Cell><Data ss:Type="String">GRANTE HPA08</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708840</Data></Cell>
+<Cell><Data ss:Type="String">Ceglédi Rádió Sport Egyesület</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Thanhoffer Ferenc</Data></Cell>
+<Cell><Data ss:Type="String">HG7FXRVC</Data></Cell>
+<Cell><Data ss:Type="String">6208-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Cegléd</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN </Data></Cell>
+<Cell><Data ss:Type="Number">434.975</Data></Cell>
+<Cell><Data ss:Type="Number">434.975</Data></Cell>
+<Cell><Data ss:Type="Number">-3</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">706747</Data></Cell>
+<Cell><Data ss:Type="Number">203735</Data></Cell>
+<Cell><Data ss:Type="Number">146</Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GMHA</Data></Cell>
+<Cell><Data ss:Type="Number">-.7</Data></Cell>
+<Cell><Data ss:Type="String">yagi</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">707113</Data></Cell>
+<Cell><Data ss:Type="String">Szűcs László Kálmán</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG7RUJ</Data></Cell>
+<Cell><Data ss:Type="String">4747-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Őrbottyán</Data></Cell>
+<Cell><Data ss:Type="String">12K5F4</Data></Cell>
+<Cell><Data ss:Type="Number">439.3125</Data></Cell>
+<Cell><Data ss:Type="Number">431.7125</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number">9</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">210</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM340</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X300</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708840</Data></Cell>
+<Cell><Data ss:Type="String">Ceglédi Rádió Sport Egyesület</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Thanhoffer Ferenc</Data></Cell>
+<Cell><Data ss:Type="String">HG7RVC</Data></Cell>
+<Cell><Data ss:Type="String">6207-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Cegléd</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN </Data></Cell>
+<Cell><Data ss:Type="Number">145.7875</Data></Cell>
+<Cell><Data ss:Type="Number">145.1875</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">4.7</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">706747</Data></Cell>
+<Cell><Data ss:Type="Number">203735</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GMHA</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="String">Triostár</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704446</Data></Cell>
+<Cell><Data ss:Type="String">Takács István László</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG8PBJ</Data></Cell>
+<Cell><Data ss:Type="String">3755-4/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Baja</Data></Cell>
+<Cell><Data ss:Type="String">12K5F2DCN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">647170</Data></Cell>
+<Cell><Data ss:Type="Number">92857.1</Data></Cell>
+<Cell><Data ss:Type="Number">108</Data></Cell>
+<Cell><Data ss:Type="Number">58</Data></Cell>
+<Cell><Data ss:Type="String">Motorola M110</Data></Cell>
+<Cell><Data ss:Type="Number">8</Data></Cell>
+<Cell><Data ss:Type="String">5/8 GP</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704446</Data></Cell>
+<Cell><Data ss:Type="String">Takács István László</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG8PKA</Data></Cell>
+<Cell><Data ss:Type="String">3755-5/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Kalocsa</Data></Cell>
+<Cell><Data ss:Type="String">12K5F2DCN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">645958</Data></Cell>
+<Cell><Data ss:Type="Number">132757</Data></Cell>
+<Cell><Data ss:Type="Number">92</Data></Cell>
+<Cell><Data ss:Type="Number">55</Data></Cell>
+<Cell><Data ss:Type="String">Motorola M110</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">hy-gain V2R</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704446</Data></Cell>
+<Cell><Data ss:Type="String">Takács István László</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG8RUC</Data></Cell>
+<Cell><Data ss:Type="String">3755-6/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Kiskunfélegyháza</Data></Cell>
+<Cell><Data ss:Type="String">16k0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.95</Data></Cell>
+<Cell><Data ss:Type="Number">431.35</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">685622</Data></Cell>
+<Cell><Data ss:Type="Number">108493</Data></Cell>
+<Cell><Data ss:Type="Number">101</Data></Cell>
+<Cell><Data ss:Type="Number">36</Data></Cell>
+<Cell><Data ss:Type="String">Elin EFD 850-400</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704446</Data></Cell>
+<Cell><Data ss:Type="String">Takács István László</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG8RVA</Data></Cell>
+<Cell><Data ss:Type="String">3755-3/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Kiskunfélegyháza</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.7625</Data></Cell>
+<Cell><Data ss:Type="Number">145.1625</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">685622</Data></Cell>
+<Cell><Data ss:Type="Number">108493</Data></Cell>
+<Cell><Data ss:Type="Number">101</Data></Cell>
+<Cell><Data ss:Type="Number">36</Data></Cell>
+<Cell><Data ss:Type="String">Storno CQM6112</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="String">Daymond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9HNA</Data></Cell>
+<Cell><Data ss:Type="String">3865-14/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nyagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">5M00D7DXW</Data></Cell>
+<Cell><Data ss:Type="Number">5770</Data></Cell>
+<Cell><Data ss:Type="Number">5770</Data></Cell>
+<Cell><Data ss:Type="Number">11.4</Data></Cell>
+<Cell><Data ss:Type="Number">28</Data></Cell>
+<Cell><Data ss:Type="Number">180</Data></Cell>
+<Cell><Data ss:Type="Number">757286</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">TP-Link AR9300</Data></Cell>
+<Cell><Data ss:Type="Number">-3</Data></Cell>
+<Cell><Data ss:Type="String">GRANTE HPA08</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9PKK</Data></Cell>
+<Cell><Data ss:Type="String">3865-15/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">12K5F2DCN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="Number">1.5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">757286</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Motorola. GM-900</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RUA</Data></Cell>
+<Cell><Data ss:Type="String">3865-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.8625</Data></Cell>
+<Cell><Data ss:Type="Number">431.2625</Data></Cell>
+<Cell><Data ss:Type="Number">16.02</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">757286</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">39</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RUE</Data></Cell>
+<Cell><Data ss:Type="String">3865-3/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW</Data></Cell>
+<Cell><Data ss:Type="Number">438.55</Data></Cell>
+<Cell><Data ss:Type="Number">430.95</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">757286</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">40</Data></Cell>
+<Cell><Data ss:Type="String">Hytera RD625</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RUG</Data></Cell>
+<Cell><Data ss:Type="String">3865-4/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.2</Data></Cell>
+<Cell><Data ss:Type="Number">430.6</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">757285.9</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">35</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR-1X</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X50</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RVA</Data></Cell>
+<Cell><Data ss:Type="String">3865-5/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nagyvisnyó</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.725</Data></Cell>
+<Cell><Data ss:Type="Number">145.125</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">303555</Data></Cell>
+<Cell><Data ss:Type="Number">757285.9</Data></Cell>
+<Cell><Data ss:Type="Number">939</Data></Cell>
+<Cell><Data ss:Type="Number">33</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RVB</Data></Cell>
+<Cell><Data ss:Type="String">3865-6/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Bükkszentkereszt</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6875</Data></Cell>
+<Cell><Data ss:Type="Number">145.0875</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">769859</Data></Cell>
+<Cell><Data ss:Type="Number">303310</Data></Cell>
+<Cell><Data ss:Type="Number">712</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">HY-GAIN V-2R</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708145</Data></Cell>
+<Cell><Data ss:Type="String">Kazincbarcikai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Ecsedi András</Data></Cell>
+<Cell><Data ss:Type="String">HG9RVC</Data></Cell>
+<Cell><Data ss:Type="String">3865-7/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-03-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Sátoraljaújhely</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.775</Data></Cell>
+<Cell><Data ss:Type="Number">145.175</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">841428</Data></Cell>
+<Cell><Data ss:Type="Number">343018</Data></Cell>
+<Cell><Data ss:Type="Number">503</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">ICOM IC-RP1510</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">HY-Gain V-2R</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708901</Data></Cell>
+<Cell><Data ss:Type="String">Kéri István</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG1RVD</Data></Cell>
+<Cell><Data ss:Type="String">12911-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2029-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Győr</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6375</Data></Cell>
+<Cell><Data ss:Type="Number">145.0375</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">618583</Data></Cell>
+<Cell><Data ss:Type="Number">272943</Data></Cell>
+<Cell><Data ss:Type="Number">320</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM340 x2</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">Sirio GPF-22N (2x5/8)</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">711228</Data></Cell>
+<Cell><Data ss:Type="String">Budapest Fővárosi Rádióamatőr Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Lázin Miklós András</Data></Cell>
+<Cell><Data ss:Type="String">HG2RTV</Data></Cell>
+<Cell><Data ss:Type="String">29827-2/2024</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szentendre</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">1.2</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">FM SSTV Átjátszó</Data></Cell>
+<Cell><Data ss:Type="Number"></Data></Cell>
+<Cell><Data ss:Type="String">BRG körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703468</Data></Cell>
+<Cell><Data ss:Type="String">Boráros Károly</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG1PNY</Data></Cell>
+<Cell><Data ss:Type="String">6362-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-02-28T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Győrújbarát</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">545517</Data></Cell>
+<Cell><Data ss:Type="Number">249601</Data></Cell>
+<Cell><Data ss:Type="Number">314</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">Motorola</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">BRG 1/4 körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703468</Data></Cell>
+<Cell><Data ss:Type="String">Boráros Károly</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG2PVV</Data></Cell>
+<Cell><Data ss:Type="String">6363-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-02-28T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Veszprémvarsány</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">557972.7</Data></Cell>
+<Cell><Data ss:Type="Number">231603.5</Data></Cell>
+<Cell><Data ss:Type="Number">265</Data></Cell>
+<Cell><Data ss:Type="Number">20</Data></Cell>
+<Cell><Data ss:Type="String">Motorola</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">BRG 1/4 körsugárzó</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708905</Data></Cell>
+<Cell><Data ss:Type="String">Rádiós és Szabadidő Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Gardó Imre</Data></Cell>
+<Cell><Data ss:Type="String">HG0RUA</Data></Cell>
+<Cell><Data ss:Type="String">11427-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-04-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Debrecen</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3FJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.625</Data></Cell>
+<Cell><Data ss:Type="Number">431.025</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2.5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">844215.7</Data></Cell>
+<Cell><Data ss:Type="Number">245118.5</Data></Cell>
+<Cell><Data ss:Type="Number">110</Data></Cell>
+<Cell><Data ss:Type="Number">203</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR1X</Data></Cell>
+<Cell><Data ss:Type="Number">14.5</Data></Cell>
+<Cell><Data ss:Type="String">FG-4305</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708905</Data></Cell>
+<Cell><Data ss:Type="String">Rádiós és Szabadidő Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Gardó Imre</Data></Cell>
+<Cell><Data ss:Type="String">HG0RUD</Data></Cell>
+<Cell><Data ss:Type="String">11429-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-04-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Debrecen</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3FJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.425</Data></Cell>
+<Cell><Data ss:Type="Number">430.825</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2.5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">248982.5</Data></Cell>
+<Cell><Data ss:Type="Number">844075.6</Data></Cell>
+<Cell><Data ss:Type="Number">123</Data></Cell>
+<Cell><Data ss:Type="Number">213</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM340</Data></Cell>
+<Cell><Data ss:Type="Number">14.5</Data></Cell>
+<Cell><Data ss:Type="String">Homemade</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">708905</Data></Cell>
+<Cell><Data ss:Type="String">Rádiós és Szabadidő Klub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Gardó Imre</Data></Cell>
+<Cell><Data ss:Type="String">HG0RVA</Data></Cell>
+<Cell><Data ss:Type="String">11428-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-04-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Debrecen</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3FJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6</Data></Cell>
+<Cell><Data ss:Type="Number">145</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">2.5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">844075.7</Data></Cell>
+<Cell><Data ss:Type="Number">248982.5</Data></Cell>
+<Cell><Data ss:Type="Number">123</Data></Cell>
+<Cell><Data ss:Type="Number">213</Data></Cell>
+<Cell><Data ss:Type="String">Yaesu DR1X</Data></Cell>
+<Cell><Data ss:Type="Number">14.5</Data></Cell>
+<Cell><Data ss:Type="String">Home-made</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704324</Data></Cell>
+<Cell><Data ss:Type="String">Szegedi Területi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Börcsök József</Data></Cell>
+<Cell><Data ss:Type="String">HG8RUA</Data></Cell>
+<Cell><Data ss:Type="String">14112-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szeged</Data></Cell>
+<Cell><Data ss:Type="String">FM/D 12.5</Data></Cell>
+<Cell><Data ss:Type="Number">438.6625</Data></Cell>
+<Cell><Data ss:Type="Number">431.0625</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">7</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">462707.8</Data></Cell>
+<Cell><Data ss:Type="Number">201452.6</Data></Cell>
+<Cell><Data ss:Type="Number">82</Data></Cell>
+<Cell><Data ss:Type="Number">110</Data></Cell>
+<Cell><Data ss:Type="String">C4FM DR-1XE</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Vertikál</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704324</Data></Cell>
+<Cell><Data ss:Type="String">Szegedi Területi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Börcsök József</Data></Cell>
+<Cell><Data ss:Type="String">HG8RVC</Data></Cell>
+<Cell><Data ss:Type="String">14110-2/2025</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2030-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Szeged</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6625</Data></Cell>
+<Cell><Data ss:Type="Number">145.0625</Data></Cell>
+<Cell><Data ss:Type="Number">15</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">462707.8</Data></Cell>
+<Cell><Data ss:Type="Number">201452.6</Data></Cell>
+<Cell><Data ss:Type="Number">82</Data></Cell>
+<Cell><Data ss:Type="Number">110</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM.300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">HY-Gain V-2R</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700294</Data></Cell>
+<Cell><Data ss:Type="String">Illés József András</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG0RUE</Data></Cell>
+<Cell><Data ss:Type="String">4564-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nyíregyháza</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.6652</Data></Cell>
+<Cell><Data ss:Type="Number">431.0625</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">295463</Data></Cell>
+<Cell><Data ss:Type="Number">849697.9</Data></Cell>
+<Cell><Data ss:Type="Number">112</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700294</Data></Cell>
+<Cell><Data ss:Type="String">Illés József András</Data></Cell>
+<Cell><Data ss:Type="String">egyéni</Data></Cell>
+<Cell><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="String">HG0RVB</Data></Cell>
+<Cell><Data ss:Type="String">4564-3/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Nyíregyháza</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.6625</Data></Cell>
+<Cell><Data ss:Type="Number">145.06625</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">295463</Data></Cell>
+<Cell><Data ss:Type="Number">849697.9</Data></Cell>
+<Cell><Data ss:Type="Number">112</Data></Cell>
+<Cell><Data ss:Type="Number">6</Data></Cell>
+<Cell><Data ss:Type="String">Motorla GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X-200</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700976</Data></Cell>
+<Cell><Data ss:Type="String">FMV Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Komantinger Attila</Data></Cell>
+<Cell><Data ss:Type="String">HG7PDK</Data></Cell>
+<Cell><Data ss:Type="String">2140-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Pilisszentkereszt-Dobogókő</Data></Cell>
+<Cell><Data ss:Type="String">16k0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">144.8</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">3</Data></Cell>
+<Cell><Data ss:Type="Number">160</Data></Cell>
+<Cell><Data ss:Type="Number">638765</Data></Cell>
+<Cell><Data ss:Type="Number">246028</Data></Cell>
+<Cell><Data ss:Type="Number">700</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">10</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X200</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700976</Data></Cell>
+<Cell><Data ss:Type="String">FMV Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Komantinger Attila</Data></Cell>
+<Cell><Data ss:Type="String">HG7RUC</Data></Cell>
+<Cell><Data ss:Type="String">2260-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Pilisszentkereszt-Dobogókő</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.35</Data></Cell>
+<Cell><Data ss:Type="Number">431.75</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="Number">160</Data></Cell>
+<Cell><Data ss:Type="Number">638765</Data></Cell>
+<Cell><Data ss:Type="Number">264028</Data></Cell>
+<Cell><Data ss:Type="Number">700</Data></Cell>
+<Cell><Data ss:Type="Number">31</Data></Cell>
+<Cell><Data ss:Type="String">2 X Motorola GM300</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X200</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">700976</Data></Cell>
+<Cell><Data ss:Type="String">FMV Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Komantinger Attila</Data></Cell>
+<Cell><Data ss:Type="String">HG7RUG</Data></Cell>
+<Cell><Data ss:Type="String">2263-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-01-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Pilisszentkereszt-Dobogókő</Data></Cell>
+<Cell><Data ss:Type="String">7K60FXW00</Data></Cell>
+<Cell><Data ss:Type="Number">438.525</Data></Cell>
+<Cell><Data ss:Type="Number">430.925</Data></Cell>
+<Cell><Data ss:Type="Number">18</Data></Cell>
+<Cell><Data ss:Type="Number">16</Data></Cell>
+<Cell><Data ss:Type="Number">160</Data></Cell>
+<Cell><Data ss:Type="Number">638765</Data></Cell>
+<Cell><Data ss:Type="Number">264028</Data></Cell>
+<Cell><Data ss:Type="Number">700</Data></Cell>
+<Cell><Data ss:Type="Number">50</Data></Cell>
+<Cell><Data ss:Type="String">Hytera RD625</Data></Cell>
+<Cell><Data ss:Type="Number">14</Data></Cell>
+<Cell><Data ss:Type="String">Diamond X50</Data></Cell>
+<Cell><Data ss:Type="String">irányított</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703799</Data></Cell>
+<Cell><Data ss:Type="String">Területi Rádióklub Zalaegerszeg</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Gosztolai Sándor</Data></Cell>
+<Cell><Data ss:Type="String">HG1RUA</Data></Cell>
+<Cell><Data ss:Type="String">14056-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Bazita</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439.3375</Data></Cell>
+<Cell><Data ss:Type="Number">431.7375</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">75</Data></Cell>
+<Cell><Data ss:Type="Number">479446</Data></Cell>
+<Cell><Data ss:Type="Number">165696</Data></Cell>
+<Cell><Data ss:Type="Number">305</Data></Cell>
+<Cell><Data ss:Type="Number">105</Data></Cell>
+<Cell><Data ss:Type="String">Jaesu, DR-1XE,</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">SIRO GPF22N</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">703799</Data></Cell>
+<Cell><Data ss:Type="String">Területi Rádióklub Zalaegerszeg</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Gosztolai Sándor</Data></Cell>
+<Cell><Data ss:Type="String">HG1RVA</Data></Cell>
+<Cell><Data ss:Type="String">14052-2/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-05-31T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Bazita</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">145.0625</Data></Cell>
+<Cell><Data ss:Type="Number">145.6625</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">5</Data></Cell>
+<Cell><Data ss:Type="Number">75</Data></Cell>
+<Cell><Data ss:Type="Number">479446</Data></Cell>
+<Cell><Data ss:Type="Number">165696</Data></Cell>
+<Cell><Data ss:Type="Number">305</Data></Cell>
+<Cell><Data ss:Type="Number">65</Data></Cell>
+<Cell><Data ss:Type="String">Jaesu DR-1-XE</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">SIRO GPF22N</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704198</Data></Cell>
+<Cell><Data ss:Type="String">Békéscsabai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Jakab János</Data></Cell>
+<Cell><Data ss:Type="String">HG8RUB</Data></Cell>
+<Cell><Data ss:Type="String">15806-4/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Békéscsaba</Data></Cell>
+<Cell><Data ss:Type="String">12K5F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">439</Data></Cell>
+<Cell><Data ss:Type="Number">431.4</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="Number">1</Data></Cell>
+<Cell><Data ss:Type="Number">360</Data></Cell>
+<Cell><Data ss:Type="Number">149293</Data></Cell>
+<Cell><Data ss:Type="Number">807187.9</Data></Cell>
+<Cell><Data ss:Type="Number">84</Data></Cell>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Yeasu DR-1XE</Data></Cell>
+<Cell><Data ss:Type="Number">12</Data></Cell>
+<Cell><Data ss:Type="String">GP</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">704198</Data></Cell>
+<Cell><Data ss:Type="String">Békéscsabai Városi Rádióklub</Data></Cell>
+<Cell><Data ss:Type="String">közösségi</Data></Cell>
+<Cell><Data ss:Type="String">Jakab János</Data></Cell>
+<Cell><Data ss:Type="String">HG8RUW</Data></Cell>
+<Cell><Data ss:Type="String">15817-4/2026</Data></Cell>
+<Cell ss:StyleID="s23"><Data ss:Type="DateTime">2031-06-30T00:00:00.000</Data></Cell>
+<Cell><Data ss:Type="String">Békéscsaba</Data></Cell>
+<Cell><Data ss:Type="String">16K0F3EJN</Data></Cell>
+<Cell><Data ss:Type="Number">438.4</Data></Cell>
+<Cell><Data ss:Type="Number">430.8</Data></Cell>
+<Cell><Data ss:Type="Number">17</Data></Cell>
+<Cell><Data ss:Type="Number">4</Data></Cell>
+<Cell><Data ss:Type="Number">359</Data></Cell>
+<Cell><Data ss:Type="Number">807188</Data></Cell>
+<Cell><Data ss:Type="Number">149293</Data></Cell>
+<Cell><Data ss:Type="Number">84</Data></Cell>
+<Cell><Data ss:Type="Number">19</Data></Cell>
+<Cell><Data ss:Type="String">Motorola GM-300</Data></Cell>
+<Cell><Data ss:Type="Number">13</Data></Cell>
+<Cell><Data ss:Type="String">GP</Data></Cell>
+<Cell><Data ss:Type="String">körsugárzó</Data></Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<Selected/>
+<Panes>
+<Pane>
+<Number>3</Number>
+<ActiveRow>1</ActiveRow>
+</Pane>
+</Panes>
+<ProtectObjects>False</ProtectObjects>
+<ProtectScenarios>False</ProtectScenarios>
+</WorksheetOptions>
+</Worksheet>
+<Worksheet ss:Name="Sheet2">
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectObjects>False</ProtectObjects>
+<ProtectScenarios>False</ProtectScenarios>
+</WorksheetOptions>
+</Worksheet>
+<Worksheet ss:Name="Sheet3">
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectObjects>False</ProtectObjects>
+<ProtectScenarios>False</ProtectScenarios>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>

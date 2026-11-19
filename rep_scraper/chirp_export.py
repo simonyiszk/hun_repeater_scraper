@@ -8,7 +8,7 @@ def csv_escape(inp: str) -> str:
 	return inp
 
 def export_chirp_old(repeaters: List[Repeater], filename: str = "repeaters_old_chirp.csv"):
-	with open(filename, "w") as csvfile:
+	with open(filename, "w", encoding="utf-8") as csvfile:
 		csvfile.write("Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,Mode,TStep,Skip,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE,Elt. [kHz]\n")
 		
 		for loc, rep in enumerate(repeaters, 1):
@@ -32,7 +32,7 @@ def export_chirp_old(repeaters: List[Repeater], filename: str = "repeaters_old_c
 
 	
 def export_chirp_new(repeaters: List[Repeater], filename: str = "repeaters_new_chirp.csv"):
-	with open(filename, "w") as csvfile:
+	with open(filename, "w", encoding="utf-8") as csvfile:
 		csvfile.write("Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,RxDtcsCode,CrossMode,Mode,TStep,Skip,Power,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE\n")
 		
 		for loc, rep in enumerate(repeaters, 1):
