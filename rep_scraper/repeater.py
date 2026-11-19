@@ -75,4 +75,13 @@ class Repeater:
 	@property
 	def band2m(self):
 		return self.freq.downlink < 400_000
+
+	@property
+	def digipeater(self) -> bool:
+		# callsigns like HG2PBA: the 4th character is "P"
+		return len(self.callsign) > 3 and self.callsign[3].upper() == 'P'
+
+	@property
+	def simplex(self) -> bool:
+		return self.freq.offset == 0
 			

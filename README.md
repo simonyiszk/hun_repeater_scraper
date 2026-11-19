@@ -2,7 +2,7 @@
 
 This python script scrapes the page [Magyarországi VHF és UHF rádióamatőr átjátszók](http://ha2to.orbel.hu/content/repeaters/hu/index.html), or reads a local XML relay list, and generates 4 files:
 - `repeaters_old_chirp.csv` and `repeaters_new_chirp.csv` for CHIRP (old and new CSV formats)
-- `repeaters.kml` with approximate coordinates for mapping software. Points are grouped into FM, DMR and C4FM folders (layers in Google My Maps); a repeater with several modes appears in each of its layers. Color = band (red = 2m, blue = 70cm). Shape = type: house = private ("egyéni", XML input only), star = multiple modes, square = DMR, triangle = C4FM, circle = FM only
+- `repeaters.kml` with approximate coordinates for mapping software. Points are grouped into FM, DMR and C4FM folders (layers in Google My Maps), plus a "Digipeater / Simplex" folder for "P" digipeaters (e.g. HG2PBA) and simplex entries (same downlink and uplink); a repeater with several modes appears in each of its layers. Color = band (red = 2m, blue = 70cm). Shape = type: house = private ("egyéni", XML input only), star = multiple modes, square = DMR, triangle = C4FM, circle = FM only
 - `echolink.kml` similar to `repeaters.kml` but only contains EchoLink-enabled repeaters (web scraping only)
 
 For the maps, see [the generated map on google maps](https://www.google.com/maps/d/edit?mid=1pecdCCsx2C0F0qW0n-bFy2ZnTRufJyo&usp=sharing)

@@ -11,6 +11,8 @@ from typing import Dict, List, Tuple
 from repeater import Repeater
 
 
+LAYER_OTHER = "Digipeater / Simplex"	# "P" digipeaters and simplex entries, not in the mode layers
+
 SHAPES_URL = "http://maps.google.com/mapfiles/kml/shapes/"
 SHAPE_HOUSE = "homegardenbusiness.png"
 SHAPE_MULTI = "star.png"
@@ -20,7 +22,7 @@ SHAPE_BY_MODE = {
 	"FM": "placemark_circle.png",
 }
 
-LAYERS = ("FM", "DMR", "C4FM")	# one KML folder (Google My Maps layer) per mode
+LAYERS = ("FM", "DMR", "C4FM", LAYER_OTHER)	# one KML folder (Google My Maps layer) each
 
 # KML colors are aabbggrr
 COLOR_2m = simplekml.Color.red
@@ -70,7 +72,11 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 
 		# one layer per mode, a repeater with several modes appears in each of them
 		present = {m for m, _f in point.modes}
-		for layer in [name for name in LAYERS if name in present] or ["FM"]:
+		if point.digipeater or point.simplex:
+			point_layers = [LAYER_OTHER]
+		else:
+			point_layers = [name for name in LAYERS if name in present] or ["FM"]
+		for layer in point_layers:
 			if layer not in folders:
 				folders[layer] = kml.newfolder(name=layer)
 			pnt = folders[layer].newpoint()
