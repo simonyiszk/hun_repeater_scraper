@@ -1,6 +1,6 @@
 import datetime
 import xml.etree.ElementTree as ET
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 import maidenhead
 from pyproj import Transformer
@@ -41,9 +41,9 @@ def _row_values(row: ET.Element) -> List[str]:
 	return values
 
 
-def eov_to_locator(a: float, b: float) -> Optional[str]:
+def eov_to_lonlat(a: float, b: float) -> Optional[Tuple[float, float]]:
 	"""
-	Convert EOV coordinates (in either order) to a locator.
+	Convert EOV coordinates (in either order) to (long, lat).
 	EOV northing is always below 400000 and easting above, so the order can be detected.
 	Returns None if the position is outside Hungary.
 	"""
@@ -51,7 +51,7 @@ def eov_to_locator(a: float, b: float) -> Optional[str]:
 	lon, lat = _eov_to_wgs84.transform(easting, northing)
 	if not (LAT_RANGE[0] <= lat <= LAT_RANGE[1] and LON_RANGE[0] <= lon <= LON_RANGE[1]):
 		return None
-	return maidenhead.to_maiden(lat, lon, precision=3)
+	return lon, lat
 
 
 def mode_label(designator: str) -> str:
@@ -83,10 +83,11 @@ def parse_xml(path: str) -> List[Repeater]:
 		if not any(lo <= downlink <= hi for lo, hi in BANDS_KHZ):
 			print(f'Skipping {callsign}: {downlink} kHz is not a 2m/70cm frequency')
 			continue
-		locator = eov_to_locator(float(v[COL_EOV_A]), float(v[COL_EOV_B]))
-		if locator is None:
+		lonlat = eov_to_lonlat(float(v[COL_EOV_A]), float(v[COL_EOV_B]))
+		if lonlat is None:
 			print(f'Skipping {callsign}: coordinates {v[COL_EOV_A]}, {v[COL_EOV_B]} are not valid EOV in Hungary')
 			continue
+		locator = maidenhead.to_maiden(lonlat[1], lonlat[0], precision=3)
 
 		freq = FREQ(downlink, uplink)
 		mode = (mode_label(v[COL_MODE]), freq)
@@ -95,7 +96,7 @@ def parse_xml(path: str) -> List[Repeater]:
 			by_callsign[callsign] = Repeater(
 				callsign,
 				CTCSS(CTCSS_MODE.NONE, 88.5, 88.5),
-				QTH(v[COL_CITY], locator),
+				QTH(v[COL_CITY], locator, lonlat),
 				freq,
 				'',
 				[mode],

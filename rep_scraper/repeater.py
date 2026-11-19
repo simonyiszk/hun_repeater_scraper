@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 from enum import Enum
 import maidenhead
 import random
@@ -34,8 +34,11 @@ class CTCSS:
 class QTH:
 	name: str	   # name of QTH
 	locator: str	# maidenhead locator code
+	exact_pos: Optional[Tuple[float, float]] = None	# exact (long, lat), overrides the locator when set
 	
 	def get_geo_pos(self, center:bool = True, randomize:bool = True) -> (float, float):
+		if self.exact_pos:
+			return self.exact_pos
 		lat, long = maidenhead.to_location(self.locator, center=center)
 		if randomize:
 			lat += random.uniform(-1 / 48, 1 / 48)
