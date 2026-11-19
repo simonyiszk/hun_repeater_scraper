@@ -64,6 +64,8 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 			desc += "\nPrivate" if point.private else "\nCommunity"
 			for mode, freq in point.modes:
 				desc += f"\n{mode}: {freq.downlink} kHz (uplink {freq.uplink} kHz)"
+			if point.has_ctcss:
+				desc += f"\nCTCSS: {point.ctcss}"
 		else:
 			desc += f"\nDownlink: {point.freq.downlink} kHz\nCTCSS: {point.ctcss}"
 		if point.echolink_code:

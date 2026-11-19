@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 from typing import Dict, List, Optional
 
 import maidenhead
+import requests
 from pyproj import Transformer
 
 from repeater import Repeater, CTCSS, CTCSS_MODE, QTH, FREQ
@@ -63,8 +64,22 @@ def mode_label(designator: str) -> str:
 	return 'FM'
 
 
+NMHH_URL = "https://nmhh.hu/amator/relay_list.xml"
+
+
+def download_nmhh(url: str = NMHH_URL) -> bytes:
+	response = requests.get(url, timeout=60)
+	response.raise_for_status()
+	return response.content
+
+
 def parse_xml(path: str) -> List[Repeater]:
-	root = ET.parse(path).getroot()
+	with open(path, 'rb') as f:
+		return parse_xml_data(f.read())
+
+
+def parse_xml_data(data: bytes) -> List[Repeater]:
+	root = ET.fromstring(data)
 	rows = root.findall('.//ss:Worksheet/ss:Table/ss:Row', NS)
 	today = datetime.date.today()
 
@@ -100,6 +115,7 @@ def parse_xml(path: str) -> List[Repeater]:
 				'',
 				[mode],
 				v[COL_OWNER_TYPE].casefold().startswith('egy'),
+				has_ctcss=False,
 			)
 		elif mode not in rep.modes:
 			rep.modes.append(mode)

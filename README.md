@@ -16,15 +16,25 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-Scrape the website (default):
+Without arguments the help is printed. Choose the data source(s):
+
+| Option | Source |
+|--------|--------|
+| `--ha2to` | scrape the HA2TO website |
+| `--nmhh` | download the NMHH list (https://nmhh.hu/amator/relay_list.xml) |
+| `--xml PATH` | read a local XML file (same format as the NMHH list) |
+
+`--nmhh` and `--xml` cannot be combined. `--ha2to` can be combined with either of them, in which case the two lists are merged by call sign:
 ```
-python3 rep_scraper
+python3 rep_scraper --ha2to
+python3 rep_scraper --nmhh
+python3 rep_scraper --ha2to --nmhh
+python3 rep_scraper --ha2to --xml relay_list.xml
 ```
 
-Read a local XML relay list instead:
-```
-python3 rep_scraper --xml relay_list.xml
-```
+### Merging
+
+For call signs in both sources, the XML provides the frequencies, modes and ownership. HA2TO provides the QTH (site name and locator), the CTCSS tones and the EchoLink code. Call signs in only one source are kept as they are. The CTCSS is shown in the map description whenever it is known.
 
 ### XML input
 
@@ -44,6 +54,6 @@ Notes:
 - Rows with the same call sign are merged into one repeater. The map description lists every mode (FM, C4FM, DMR) with its downlink and uplink frequency. The CHIRP files use the first row's frequency.
 - Only 2m and 70cm rows are used; other bands (e.g. microwave links) are skipped.
 - Entries whose validity date has passed, and rows missing a call sign, frequency or coordinates, are skipped.
-- The XML has no CTCSS or EchoLink data. CTCSS is left empty and `echolink.kml` is not generated.
+- The XML has no CTCSS or EchoLink data. CTCSS is left empty and `echolink.kml` is only generated when merged with HA2TO data.
 
 Made by HA7DN, 2023
