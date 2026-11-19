@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import List, Tuple
 from enum import Enum
 import maidenhead
 import random
@@ -61,6 +62,9 @@ class Repeater:
 	freq: FREQ
 	
 	echolink_code: str
+	modes: List[Tuple[str, FREQ]] = field(default_factory=list)	# (mode name, frequencies), set by XML input
+	private: bool = False	# privately owned ("egyéni"), set by XML input
+	has_ctcss: bool = True	# False if the CTCSS settings are unknown (XML input)
 	
 	@classmethod
 	def parse(_cls, callsign, qth_name, downlink, uplink, shift, ctcss, echolink, qth_locator) -> 'Repeater':
@@ -72,4 +76,13 @@ class Repeater:
 	@property
 	def band2m(self):
 		return self.freq.downlink < 400_000
+
+	@property
+	def digipeater(self) -> bool:
+		# callsigns like HG2PBA: the 4th character is "P"
+		return len(self.callsign) > 3 and self.callsign[3].upper() == 'P'
+
+	@property
+	def simplex(self) -> bool:
+		return self.freq.offset == 0
 			
