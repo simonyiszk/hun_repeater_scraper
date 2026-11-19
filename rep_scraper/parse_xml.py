@@ -12,6 +12,7 @@ SS_INDEX = '{urn:schemas-microsoft-com:office:spreadsheet}Index'
 
 COL_CALLSIGN = 4
 COL_VALIDITY = 6
+COL_OWNER_TYPE = 2
 COL_CITY = 7
 COL_MODE = 8
 COL_TX = 9
@@ -98,6 +99,7 @@ def parse_xml(path: str) -> List[Repeater]:
 				freq,
 				'',
 				[mode],
+				v[COL_OWNER_TYPE].casefold().startswith('egy'),
 			)
 		elif mode not in rep.modes:
 			rep.modes.append(mode)

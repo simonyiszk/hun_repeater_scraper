@@ -63,6 +63,7 @@ class Repeater:
 	
 	echolink_code: str
 	modes: List[Tuple[str, FREQ]] = field(default_factory=list)	# (mode name, frequencies), set by XML input
+	private: bool = False	# privately owned ("egyéni"), set by XML input
 	
 	@classmethod
 	def parse(_cls, callsign, qth_name, downlink, uplink, shift, ctcss, echolink, qth_locator) -> 'Repeater':
