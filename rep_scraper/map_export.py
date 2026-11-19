@@ -53,7 +53,7 @@ def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_na
 
 	for point in repeaters:
 		pnt = kml.newpoint()
-		pnt.name = point.callsign
+		pnt.name = f"{point.qth.name.strip()} {point.callsign}"
 		desc = point.qth.name
 		if point.modes:
 			desc += "\nPrivate" if point.private else "\nCommunity"
