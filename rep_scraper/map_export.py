@@ -9,6 +9,7 @@ Description will contain QTH name (city), downlink, CTCSS and echolink
 import simplekml
 from typing import Dict, List, Tuple
 from repeater import Repeater
+from ctcss_zones import add_ctcss_zones
 
 
 LAYER_OTHER = "Digipeater / Simplex"	# "P" digipeaters and simplex entries, not in the mode layers
@@ -40,10 +41,12 @@ def shape_for(repeater: Repeater) -> str:
 	return SHAPE_BY_MODE["FM"]
 
 
-def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_name = None):
+def export_map(repeaters: List[Repeater], filename: str = "rep.kml", document_name = None, ctcss: bool = False):
 	kml = simplekml.Kml(open=1)
 	if document_name:
 		kml.document.name = document_name
+	if ctcss:
+		add_ctcss_zones(kml)
 
 	styles: Dict[Tuple[str, str], simplekml.Style] = {}
 	folders: Dict[str, simplekml.Folder] = {}

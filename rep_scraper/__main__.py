@@ -28,6 +28,7 @@ if __name__ == '__main__':
 	xml_source = parser.add_mutually_exclusive_group()
 	xml_source.add_argument('--nmhh', action='store_true', help=f'download the NMHH relay list ({NMHH_URL})')
 	xml_source.add_argument('--xml', metavar='PATH', help='read the relay list from an XML (SpreadsheetML) file')
+	parser.add_argument('--ctcss', action='store_true', help='add the CTCSS zones by county as layers to the KML files')
 	args = parser.parse_args()
 
 	if not (args.ha2to or args.nmhh or args.xml):
@@ -47,7 +48,7 @@ if __name__ == '__main__':
 	else:
 		repeaters = ha2to if ha2to is not None else xml
 
-	export_map(repeaters, 'repeaters.kml', 'Átjátszók')
+	export_map(repeaters, 'repeaters.kml', 'Átjátszók', ctcss=args.ctcss)
 	echolink = [r for r in repeaters if r.echolink_code]
 	if echolink:
 		export_map(echolink, 'echolink.kml', 'EchoLink átjászók')
